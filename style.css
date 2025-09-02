@@ -101,7 +101,7 @@ a:hover {
     display: block;
     padding: 10px;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 20px;
     color: black;
     text-decoration: none;
     transition: all 0.3 ease-in-out;
@@ -145,7 +145,7 @@ section {
     min-height: fit-content;
 }
 
-.section-contanier {
+.section-container {
     display: flex;
 }
 
@@ -158,12 +158,13 @@ section {
     height: 80vh;
 }
 
-.section__pic-contanier {
+.section__pic-container {
     display: flex;
     height: 400px;
     width: 400px;
     margin: auto 0;
 }
+
 
 .section__text {
     align-self: center;
@@ -202,11 +203,11 @@ section {
     text-align: center;
 }
 
-#social-contanier {
+#social-container {
     display: flex;
     justify-content: center;
     margin-top: 1rem;
-    gap: 1rem;
+    gap: 2rem;
 }
 
 .profile-img {
@@ -214,8 +215,8 @@ section {
   height: 400px;
   border-radius: 50%;
   object-fit: cover;
-  margin-bottom: 20px;
-  padding: 60px;
+  /* margin-bottom: 10px; */
+  /* padding: 10px; */
 }
 
 
@@ -228,7 +229,7 @@ section {
 
 /* Buttons */
 
-.btn-contanier {
+.btn-container {
     display: flex;
     justify-content: center;
     gap: 1rem;
@@ -271,7 +272,7 @@ section {
     border: rgb(255, 255, 255) 0.1rem solid;
 }
 
-.btn-contanier {
+.btn-container {
     gap: 1rem;
 }
 
@@ -281,19 +282,19 @@ section {
     position: relative;
 }
 
-.about-contaniers {
+.about-container {
     gap: 2rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
 }
 
-.about-details-contaniers {
+.about-details-container {
     justify-content: center;
     flex-direction: column;
 }
 
-.about-contaniers,
-.about-details-contaniers {
+.about-container,
+.about-details-container {
     display: flex;
 }
 
@@ -308,18 +309,22 @@ section {
     bottom: 2.5rem;
 }
 
-.details-contanier {
+.details-container {
     padding: 1.5rem;
     text-align: left;
     font-size: 1.2rem;
 }
 
-.section-contanier {
+.details-container p {
+  font-size: 1.5rem;
+}
+
+.section-container {
     gap: 4rem;
     height: 80%;
 }
 
-.section__pic-contanier {
+.section__pic-container {
     height: 400px;
     width: 400px;
     margin: auto 0;
