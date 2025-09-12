@@ -180,16 +180,16 @@ section {
     color:rgb(112, 112, 112) ;
 } 
 
-.section__text__p2 {
+/* .section__text__p2 {
     font-size: 1.7rem;
     margin-bottom: 1rem;
     color: rgb(121, 121, 121);
-    border-right: 2px solid black;  /* typing cursor */
+    border-right: 2px solid black; 
     white-space: nowrap;
     overflow: hidden;
     display: inline-block;
     animation: blink 0.7s infinite;
-}
+} */
 
 @keyframes blink {
     50% {
